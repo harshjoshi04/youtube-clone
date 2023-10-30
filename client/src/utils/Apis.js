@@ -1,0 +1,17 @@
+export const MAIN = "http://localhost:8000";
+export const USERAPI = `${MAIN}/api/user`;
+export const CHANNEL = `${MAIN}/api/channel`;
+export const FINDCHANNEL = `${USERAPI}/find-channel`;
+export const USERSIGNIN = `${USERAPI}/signin`;
+export const CREATE_CHANNEL = `${USERAPI}/craete-channel`;
+export const UPLOAD_VIDEO = `${CHANNEL}/upload-video`;
+export const FINDALLVIDEOS = `${USERAPI}/all-video`;
+export const FINDONEVIDEO = `${CHANNEL}/find-video`;
+export const SUBSCRIBE = `${CHANNEL}/subscribes`;
+export const FIND_SUBSCRIBER = `${CHANNEL}/find-subscriber`;
+export const UNSUBSCRIBER = `${CHANNEL}/unsubscribe`;
+export const ACTION_LIKEVIDEO = `${CHANNEL}/action-video`;
+export const REMOVE_LIKEVIDEO = `${CHANNEL}/remove-action`;
+export const ADD_COMMENT = `${CHANNEL}/add-comment`;
+export const FIND_COMMETS = `${CHANNEL}/find-comment`;
+export const STD_COMMETS = `${CHANNEL}/all-comment`;
